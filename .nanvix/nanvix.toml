@@ -1,0 +1,10 @@
+[package]
+name = "pandas"
+version = "3.0.0.dev"
+nanvix-version = "0.12.552"
+
+[builds]
+[builds.matrix]
+platforms = ["microvm"]
+modes = ["standalone"]
+memory = ["256mb"]
